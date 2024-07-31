@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "bootiful",
+    "module": "openrewrite",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "openrewrite-0.0.1-SNAPSHOT.jar",
+          "url": "openrewrite-0.0.1-SNAPSHOT.jar",
+          "size": 4537,
+          "sha512": "e4d77436abfb812eaa333d9f15c5b5099f2d6e7ee03835a86ca0a96d77f5e9a58229a0162f06841c62f815cc59d4d71bed51b9e07f200b98e2853e3c6c73a79d",
+          "sha256": "f92acb0c81bb061aac70432c16b2d87c13b1a9d207a193a6175dd1d992c72ab0",
+          "sha1": "9854d2eb16cc364ac32a9c5397e68def012f5170",
+          "md5": "ce2d2c06cdc95bdf621591a6716db77e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter",
+          "version": {
+            "requires": "3.3.2"
+          }
+        },
+        {
+          "group": "org.openrewrite.recipe",
+          "module": "rewrite-recipe-bom",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.openrewrite",
+          "module": "rewrite-java",
+          "version": {
+            "requires": "8.2.0"
+          }
+        },
+        {
+          "group": "org.openrewrite",
+          "module": "rewrite-maven",
+          "version": {
+            "requires": "8.2.0"
+          }
+        },
+        {
+          "group": "org.openrewrite",
+          "module": "rewrite-yaml",
+          "version": {
+            "requires": "8.2.0"
+          }
+        },
+        {
+          "group": "org.openrewrite",
+          "module": "rewrite-properties",
+          "version": {
+            "requires": "8.2.0"
+          }
+        },
+        {
+          "group": "org.openrewrite",
+          "module": "rewrite-xml",
+          "version": {
+            "requires": "8.2.0"
+          }
+        },
+        {
+          "group": "org.openrewrite",
+          "module": "rewrite-java-11",
+          "version": {
+            "requires": "8.2.0"
+          }
+        },
+        {
+          "group": "org.openrewrite",
+          "module": "rewrite-java-17",
+          "version": {
+            "requires": "8.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openrewrite-0.0.1-SNAPSHOT.jar",
+          "url": "openrewrite-0.0.1-SNAPSHOT.jar",
+          "size": 4537,
+          "sha512": "e4d77436abfb812eaa333d9f15c5b5099f2d6e7ee03835a86ca0a96d77f5e9a58229a0162f06841c62f815cc59d4d71bed51b9e07f200b98e2853e3c6c73a79d",
+          "sha256": "f92acb0c81bb061aac70432c16b2d87c13b1a9d207a193a6175dd1d992c72ab0",
+          "sha1": "9854d2eb16cc364ac32a9c5397e68def012f5170",
+          "md5": "ce2d2c06cdc95bdf621591a6716db77e"
+        }
+      ]
+    }
+  ]
+}

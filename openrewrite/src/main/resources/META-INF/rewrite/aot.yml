@@ -1,0 +1,9 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: bootiful.openrewrite.SayHelloRecipe
+displayName: Support Hellos
+description: Hello
+tags:
+  - spring
+  - boot
+recipeList:
+  - bootiful.openrewrite.SayHelloRecipe
